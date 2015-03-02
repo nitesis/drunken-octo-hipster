@@ -13,9 +13,10 @@ using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 
+
 // The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=391641
 
-namespace MyApp1
+namespace MiniBrowser
 {
     /// <summary>
     /// An empty page that can be used on its own or navigated to within a Frame.
@@ -43,6 +44,12 @@ namespace MyApp1
             // Windows.Phone.UI.Input.HardwareButtons.BackPressed event.
             // If you are using the NavigationHelper provided by some templates,
             // this event is handled for you.
+        }
+
+        private void Los_Click(object sender, RoutedEventArgs e)
+        {
+            string site = URL.Text;
+            MiniBrowser.Navigate(new Uri(site, UriKind.Absolute));
         }
     }
 }

@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyApp1", "MyApp1\MyApp1.csproj", "{24EFAA30-9918-475A-9A7A-E2905DB60375}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniBrowser", "MyApp1\MiniBrowser.csproj", "{24EFAA30-9918-475A-9A7A-E2905DB60375}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
